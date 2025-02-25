@@ -1,5 +1,6 @@
 # CDS524-Assignment-1-WANG-Jiawei
 This Python program demonstrates the implementation of a Q-learning algorithm to navigate a maze using a graphical user interface (GUI) built with the Tkinter library. Q-learning is a model-free reinforcement learning algorithm that seeks to find the best action to take given the current state. The primary components of the program include the Maze environment and the Agent class.
+![5b836d02-a257-45eb-8b3b-54858541126b](https://github.com/user-attachments/assets/d8f9f6b7-cc81-4b5d-abcd-e5aa2078531e)
 
 
 The Maze class inherits from tk.Tk and is responsible for creating and displaying the maze. The maze is a 6x6 grid where each cell is 40 pixels by 40 pixels. The __init__ function sets up the window, draws the grid, and places various elements like traps, rewards, and the agent's starting position. The traps are represented by black rectangles, rewards by yellow rectangles, and the exit by a green rectangle. The agent is represented by a red oval.
